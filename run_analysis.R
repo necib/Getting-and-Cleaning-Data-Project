@@ -1,4 +1,4 @@
-#########################                                           ###########################
+###############################################################################################
 ######################### Getting and Cleaning Data Course Project  ###########################
 ###############################################################################################
 
@@ -97,6 +97,6 @@ colnames(finalData) = colNames
 secTidydata <- aggregate(. ~subjectId + activityId, finalData, mean)
 secTidydata <- secTidydata[order(secTidydata$subjectId, secTidydata$activityId), ]
 # write the data into a file 
-write.table(secTidydata, "secTidydata.txt", row.name=FALSE)
+write.table(secTidydata, "./data/secTidydata.txt", row.name=FALSE)
 
 

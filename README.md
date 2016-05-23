@@ -1,6 +1,6 @@
 # Getting-and-Cleaning-Data-Project
 
-Repo for the submission of the course project for Cleaning Data course.
+Repository for the submission of the course project for Cleaning Data course.
 
 ## Overview
 
